@@ -1,0 +1,108 @@
+/* Here goes your CSS */
+body{
+  background-image: url("background.png");
+  font-family: 'Roboto', sans-serif;
+  color: rgb(20,20,20);
+  font-size: 15px;
+  line-height:1.6em;
+  display: block;
+  margin: 8px;
+  text-align: center;
+}
+
+h1{
+  color: #B85B43;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+h2{
+  color: #35544C;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+h3{
+  font-weight: 150;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+a{
+  color: rgb(20,20,20) ;
+  text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: color 200ms ease;
+}
+
+.container {
+  width: 1000px;
+  margin: 30 px auto; /* Automatically set left/right margins */
+
+}
+
+
+.card{
+    width: 550px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #E7E8CC;
+    opacity: 0.9;
+    border-radius: 0.5%;
+    box-shadow: 11px 11px 10px rgba(1,1,1, 0.2);
+}
+
+#home-page-first-image {
+  border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.horizontal > li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#media i {
+
+  font-size: 20px;
+}
+
+.card img {
+  padding: 10px 10px;
+  border-radius: 1%;
+}
+
+#left-container {
+    width: 35%;
+    float: left;
+    min-height: 600px;
+}
+
+#right-container {
+    width: 60%;
+    float: right;
+    min-height: 600px;
+}
+
+#footer {
+    position: relative;
+    padding: 10px 400px 60px 20px;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1);
+}
+
+.clear {
+    clear: both;
+}
